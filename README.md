@@ -53,7 +53,4 @@
 # Tamanhos
 * px -> Fxo
 * %, em -> Em relação ao pai
-* vh/vw, rem -> Em relação ajanela
-# LIMA
-# LIMA
-# LIMA
+* vh/vw, rem -> Em relação a janela
