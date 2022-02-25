@@ -1,0 +1,41 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+header {
+    background-color: red;
+    height: 80px;
+}
+
+main {
+    display: flex;
+    flex-grow: 1;
+}
+
+.art {
+    background-color: greenyellow;
+    flex-grow: 2;
+}
+
+.border1 {
+    background-color: grey;
+    flex-grow: 1;
+}
+
+.border2 {
+    background-color: aliceblue;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: purple;
+    height: 80px;
+}

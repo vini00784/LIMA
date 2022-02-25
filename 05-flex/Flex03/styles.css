@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+}
+
+nav {
+    background-color: royalblue;
+    flex-grow: 1;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    flex-grow: 10;
+}
+
+header {
+    background-color: red;
+    height: 100px;
+}
+
+main {
+    background-color: teal;
+    flex-grow: 1;
+}
+
+footer {
+    background-color: purple;
+    height: 100px;
+}
